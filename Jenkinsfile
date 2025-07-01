@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/malleswari23/flask-application.git'
+                git 'https://github.com/malleswari23/flask-eks-cicd.git'
             }
         }
 
